@@ -67,18 +67,6 @@ The JavaScript code handles the following:
 * **Conversion Calculation:** Performs the currency conversion calculation based on the fetched rates.
 * **Result Display:** Displays the converted amount to the user.
 * **Error Handling:** Manages and displays error messages for API failures or invalid inputs.
-* 
-## Currency Codes (`codes.js`)
-
-The `codes.js` file contains an object or array with currency codes and their corresponding names, used to populate the dropdown menus. For example:
-
-```javascript
-const currencyCodes = {
-  USD: 'United States Dollar',
-  EUR: 'Euro',
-  GBP: 'British Pound',
-  // ... more currencies
-};
 
 ## Customization
 
