@@ -46,12 +46,14 @@ This application uses the following API to fetch real-time currency exchange rat
 currency-converter/
 ├── index.html
 ├── styles.css
+├── codes.js
 ├── script.js
 └── README.md
 
 
 * `index.html`: The main HTML file containing the application's structure.
 * `styles.css`: The CSS file for styling the application.
+* `codes.js`: Holds the currency codes for the dropdown menus.
 * `script.js`: The JavaScript file containing the application's logic and API interactions.
 * `README.md`: The file you are currently reading.
 
@@ -65,6 +67,18 @@ The JavaScript code handles the following:
 * **Conversion Calculation:** Performs the currency conversion calculation based on the fetched rates.
 * **Result Display:** Displays the converted amount to the user.
 * **Error Handling:** Manages and displays error messages for API failures or invalid inputs.
+* 
+## Currency Codes (`codes.js`)
+
+The `codes.js` file contains an object or array with currency codes and their corresponding names, used to populate the dropdown menus. For example:
+
+```javascript
+const currencyCodes = {
+  USD: 'United States Dollar',
+  EUR: 'Euro',
+  GBP: 'British Pound',
+  // ... more currencies
+};
 
 ## Customization
 
